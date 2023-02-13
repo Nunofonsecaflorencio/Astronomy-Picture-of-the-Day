@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Astronomy Picture of the Day</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Rubik&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="styles/style.css">
+    <script defer src="scripts/scrip.js"></script>
+</head>
+<body>
+
+    <header> 
+        <section class="top-bar">
+            <a href="/">NUNO x APOD</a>
+        </section>
+        <section class="hero">
+            <h1>Astronomy Picture of the Day</h1>
+            <p>Each day a different image or photograph of our fascinating universe is featured, along with a brief explanation written by a professional astronomer.</p>
+        </section>
+    </header>
+
+    <main>
+
+        <div class="not-found">
+            <h1>Waiting For Data ...</h1>
+            <img src="images/not-found.png" alt="Not Found">
+        </div>
+
+        <article id="content" class="hidden">
+            <p id="date"></p>
+            <h2 id="picture-title"></h2>
+            <img id="picture-day" src="" alt="Picture of the Day">
+            <p id="explanation"></p>
+            <br>
+            <p id="copyright"></p>
+            <br>
+            <a id="hd" href="">High-Resolution Image</a>
+        </article>
+
+    </main>
+
+    <footer>
+        <a href="https://apod.nasa.gov/apod/astropix.html">NASA APOD</a>
+        
+        <p>
+            Developer: 
+            <a href="https://instagram.com/nuno2f">Nuno Fonseca</a>
+        </p>
+    </footer>
+</body>
+</html>
